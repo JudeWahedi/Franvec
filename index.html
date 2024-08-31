@@ -1,0 +1,117 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Happy Birthday, Aisha!</title> <style>body { 
+font-family: Arial, sans-serif; 
+background-color: #ffcccb;
+margin: 4px; 
+padding: 0; 
+overflow: ; 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+height: 100vh; 
+color: #fff; 
+} 
+
+.container { 
+text-align: center; 
+} 
+
+.header h1 { 
+font-size: 3rem; 
+margin-bottom: 0.5rem; } 
+
+.header p { 
+font-size: 1.5rem;
+ } 
+
+.balloons { 
+ position: relative; 
+ height: 200px; 
+ } 
+ 
+ .balloon { 
+ position: absolute; 
+ bottom: 0; 
+ width: 50px; 
+ height: 70px; 
+ border-radius: 50%; 
+ background-color: #ff6f61; 
+ animation: float 6s ease-in-out infinite; 
+ } 
+ 
+.balloon:before { 
+content: ''; 
+position: absolute; 
+bottom: -10px; 
+left: 50%; 
+width: 2px; 
+height: 20px; 
+background-color: #fff; 
+transform: translateX(-80%); } 
+
+.one { 
+left: 10%; 
+animation-duration: 5s; 
+} 
+
+.two { 
+left: 30%; 
+background-color: #ffb347; 
+animation-duration: 7s; 
+} 
+
+.three { 
+left: 50%; 
+background-color: #fbd46d; 
+animation-duration: 6.5s; 
+} 
+
+.four { 
+left: 70%; 
+background-color: #6be7c1; 
+animation-duration: 8s; 
+shape: heart;
+} 
+
+.five { 
+left: 90%; 
+background-color: #6a67ce; 
+animation-duration: 5.5s; 
+} 
+
+@keyframes float { 
+0% { 
+transform: translateY(0); 
+} 
+50% { 
+transform: translateY(-30px); 
+} 
+100% { 
+transform: translateY(0); 
+} } 
+
+.message p { 
+font-size: 1.2rem; 
+margin: 20px 0; } 
+#surpriseBtn { 
+background-color: #f76c6c; 
+border: none; 
+padding: 10px 20px; 
+font-size: 1rem; 
+color: #fff; 
+cursor: pointer; 
+border-radius: 5px; 
+} 
+#surpriseBtn:hover { 
+background-color: #f55a5a; } 
+
+.hidden { 
+display: none; } 
+#surprise img { 
+margin-top: 20px; 
+width: 200px; 
+border-radius: 10px; 
+} 
+
+</style> </head><!--  --> <body> <div class="container"> <div class="header"> <h1>Happy Birthday, Frances!</h1> <p>You're amazing, and today is all about you!</p> </div> <div class="balloons"> <div class="balloon one"></div> <div class="balloon two"></div> <div class="balloon three"></div> <div class="balloon four"></div> <div class="balloon five"></div> </div> <div class="message"> <p>Aisha, today is a special day because you’re in this world! 🎉</p> <p>Wishing you all the happiness, love, and success. You deserve nothing less.</p> 
+<a href="0.html"><button id="surpriseBtn">Click for a Surprise!</button></a> </div> <div id="surprise" class="surprise hidden"> <p>Here’s a little secret: <strong><a href="3.html">You make the world brighter! tap me</a></strong></p> </div> </div> <script src="A.js"></script> </body> </html> 
+

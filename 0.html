@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Frances</title>
+    <style>body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #ff99cc, #66ccff);
+}
+
+.container {
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.intro h1 {
+    font-size: 4em;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 3s ease-out;
+}
+
+.intro p {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin: 20px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+.hidden {
+    display: none;
+}
+
+#balloons {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.balloon {
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background: url('heart-shape.png') no-repeat center center; /* Heart-shaped balloon */
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+},
+
+#flowers {
+    position: relative;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.flower {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url('j.jpg') no-repeat center center;
+    background-size: contain;
+    opacity: 0;
+    animation: popUp 1s ease-out forwards;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-30px); }
+    60% { transform: translateY(-15px); }
+}
+
+@keyframes popUp {
+    from { opacity: 0; transform: scale(0.5); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+#messageForm {
+    margin-top: 30px;
+}
+
+#messageInput {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#sendMessageBtn {
+    background-color: #4caf50;
+}
+
+#sendMessageBtn:hover {
+    background-color: #45a049;
+}
+
+#confirmationMessage {
+    font-size: 1em;
+    color: #4caf50;
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1>Happy Birthday Frances!</h1>
+            <p>You're amazing and today is all about celebrating you!</p>
+            <a href="1.html"><h1>start</h1></a>
+</body>
+</html>

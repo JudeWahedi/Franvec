@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Frances</title>
+    <style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff00f1;
+    text-align: center;
+}
+
+header {
+    background-color: #dba35b;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #b92eb6;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff40bd;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+
+
+.image-slider {
+    display: flex;
+    overflow-x: auto;
+    height: 380px;
+    
+}
+
+.image-slider img {
+    max-width: 700%;
+    margin:  0px;
+    height: px;   
+}
+
+#videos {
+    padding: 20px;
+    background-color: #ff00c7;
+    border-top: 2px solid #ddd;
+}
+
+#videos video {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+#messages {
+    position: center;
+    bottom: 0;
+    right: 0;
+    width: 336px;
+    background-color: #0003b9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#chat-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#chat-messages {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+footer {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ff9999;
+}
+
+</style>
+</head>
+<body>
+    
+    <header>
+        <h1>Happy Birthday Frances!</h1>
+        <p>This is a special website just for you.</p>
+    </header>    
+            <section id="gallery">
+       
+        <div class="image-slider">
+            <img src="f.jpg" alt="Image 1"> 
+            <img src="18.jpg" alt="Image 2">
+            <img src="4.jpg" alt="Image">
+            <img src="19.jpg" alt="Image">
+            <img src="3.jpg" alt="Image">
+            <img src="6.jpg" alt="Image">
+            <img src="8.jpg" alt="Image">
+            <img src="9.jpg" alt="Image">
+            <img src="20.jpg" alt="Image">
+            <img src="11.jpg" alt="Image">
+            <img src="12.jpg" alt="Image">
+            <img src="13.jpg" alt="Image">
+            <img src="14.jpg" alt="Image">
+            <img src="15.jpg" alt="Image">
+            <img src="16.jpg" alt="Image">
+            <img src="17.jpg" alt="Image">
+            <img src="7.jpg" alt="image">
+            <img src="10.jpg" alt="image">
+            <img src="2.jpg" alt="image">
+            <img src="5.jpg" alt="image">
+            <img src="ff.jpg" alt="image">
+            <!-- More images can be added here -->
+        </div>
+    </section>
+    <a href="2.html">tap to know the truth</a>
+    <section id="videos">
+       
+        <video controls >
+            <source src="v.mp4" type="video/mp4">
+                <source src="3.mp4" type ="video/mp4"
+            Your browser does not support the video tag.
+        </video>
+        <!-- More videos can be added here -->
+    </section>
+    
+    <section id="messages">
+        <h2>send message to jude</h2>
+        <form id="chat-form" action="send_message.php" method="POST">
+            <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div id="chat-messages">
+            <!-- Chat messages will be displayed here -->
+        </div>
+    </section>
+    
+    <footer>
+      <a href="0.htm">back....</a>
+      <a href="time.html">time</a>
+        <p>&copy; 2024 Jude. All rights reserved.</p>
+    </footer>
+    
+    <audio id="background-music" autoplay loop>
+        <source src="A.mp3" type="audio/mpeg"></source>
+    </audio>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="1.js"></script>
+</body>
+</html>
